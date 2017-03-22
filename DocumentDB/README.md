@@ -1,7 +1,11 @@
-Create Resource Group
+## Create Resource Group
+```
 az group create --name=ddbResourceGroup -l=westeurope
+```
 
-Create DocumentDB Mongo instance
+## Create DocumentDB Mongo instance
+
+```
 az documentdb create -n mongodemo-ms -g ddbResourceGroup --kind MongoDB
 
 {
@@ -19,7 +23,7 @@ az documentdb create -n mongodemo-ms -g ddbResourceGroup --kind MongoDB
       "locationName": "West Europe"
     }
   ],
-  "id": "/subscriptions/63bb1026-40d0-4a59-b97d-8b343eefecb3/resourceGroups/ddbResourceGroup/providers/Microsoft.DocumentDB/databaseAccounts/mongodemo-ms",
+  "id": "/subscriptions/63bb1026-XXXX-XXXX-XXXX-XXXXXXXXXX/resourceGroups/ddbResourceGroup/providers/Microsoft.DocumentDB/databaseAccounts/mongodemo-ms",
   "ipRangeFilter": "",
   "kind": "MongoDB",
   "location": "West Europe",
@@ -48,6 +52,6 @@ az documentdb create -n mongodemo-ms -g ddbResourceGroup --kind MongoDB
   ]
 }
 
-Login to the portal and get the connection string
+## Login to the portal and get the connection string
 
-Run node connection to query DB via Mongo
+## Run node connection to query DB via Mongo

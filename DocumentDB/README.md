@@ -51,6 +51,7 @@ az documentdb create -n mongodemo-ms -g ddbResourceGroup --kind MongoDB
     }
   ]
 }
+```
 
 ## Login to the portal and get the connection string
 

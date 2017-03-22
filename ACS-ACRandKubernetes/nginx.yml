@@ -1,0 +1,32 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: hello-london-router
+spec:
+  ports:
+    - port: 80
+  selector:
+    app: router
+  type: LoadBalancer
+---
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: hello-london
+spec:
+  replicas: 3
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        app: hello-london
+    spec:
+      containers:
+      - image: YOURACS.azurecr.io/demos/hello-london:latest
+        name: hello-london
+        ports:
+        - containerPort: 80
+      imagePullSecrets:
+      - name: msregistrykey
+

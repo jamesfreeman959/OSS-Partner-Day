@@ -51,5 +51,5 @@ A few moments later, take a look back at your Application URL...
 ## Some other things to try
 How about some other things to try:
 
-.Push load onto the published application and see how the resource utilisation holds up
-.Scale the number of instances up or down to see performance increase/decrease
+- Push load onto the published application and see how the resource utilisation holds up
+- Scale the number of instances up or down to see performance increase/decrease

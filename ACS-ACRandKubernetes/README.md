@@ -179,9 +179,9 @@ az acs kubernetes browse -n kube -g kubeResourceGroup
 ## Some other things to try
 How about some other things to try:
 
-.Push load onto the published service and see how the resource utilisation holds up
-.Scale the number of replicas up or down to see performance increase/decrease
-.Tear down and replace your container
+- Push load onto the published service and see how the resource utilisation holds up
+- Scale the number of replicas up or down to see performance increase/decrease
+- Tear down and replace your container
 
 ## Some useful kubectl commands
 

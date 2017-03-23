@@ -46,7 +46,7 @@ If you flick back to the portal, you should see that a deployment has been trigg
 
 A few moments later, take a look back at your Application URL...
 
-![alt text](https://github.com/justindavies/OSS-Partner-Day/blob/master/AppServiceLinux/website_pubished.PNG?raw=true "Your App is live")
+![alt text](https://github.com/justindavies/OSS-Partner-Day/blob/master/AppServiceLinux/website_published.PNG?raw=true "Your App is live")
 
 ## Some other things to try
 How about some other things to try:

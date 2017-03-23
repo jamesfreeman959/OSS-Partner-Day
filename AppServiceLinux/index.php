@@ -4,6 +4,7 @@
     </head>
 
     <body>
-        <h1><? php echo rand(1,100); ?></h1>
+        
+        <h1>How random! <?php echo rand(1,100); ?></h1>
     </body>
 </html>

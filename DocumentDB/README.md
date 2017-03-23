@@ -54,8 +54,18 @@ az documentdb create -n mongodemo-ms -g ddbResourceGroup --kind MongoDB
 ```
 
 ## Login to the portal and get the connection string
+IMAGE
+
+## Edit the app.js file
+Change the connection string to allow the application to connect to the DocumentDB instance
+```
+ var url = 'mongodb://mongodemo-ms:XXXXXXXXXXXXXXX@mongodemo-ms.documents.azure.com:10250/?ssl=true';
+
+```
 
 ## Run node connection to query DB via Mongo
+This Node.js application will connect to the DocumentDB instance, insert a few records, search for them back, and then remove them.  
+
 ```
 node app.js
 ```
